@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+<TextView
+    android:id="@+id/tvGreatest"
+    android:text="Greatest Common Factorial"
+    android:textSize="20sp"
+    android:textStyle="bold"
+    android:gravity="center_horizontal"
+    android:layout_marginTop="50dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:ignore="HardcodedText" />
+
+    <EditText
+        android:id="@+id/etFirstNumber"
+        android:gravity="center_horizontal"
+        android:hint="First Number"
+        android:inputType="number"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="80dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="Autofill,HardcodedText" />
+
+    <EditText
+        android:id="@+id/etSecondNumber"
+        android:gravity="center_horizontal"
+        android:hint="Second Number"
+        android:inputType="number"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="80dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="Autofill,HardcodedText" />
+
+    <Button
+        android:id="@+id/btCalculate"
+        android:text="Calculate"
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="80dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="HardcodedText" />
+
+</LinearLayout>
